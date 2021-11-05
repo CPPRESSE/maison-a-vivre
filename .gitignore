@@ -3,22 +3,22 @@
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
-wp-content/*
-!wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
-!wp-content/w3tc-config/
-!wp-content/wp-rocket-config/
-!wp-content/languages/
-!wp-content/ngg/
-!wp-content/advanced-cache.php
-!wp-content/backup-db/
-!wp-content/backups/
-!wp-content/blogs.dir/
-!wp-content/cache/
-!wp-content/upgrade/
-!wp-content/uploads/
-!wp-content/wp-cache-config.php
+#wp-content/*
+#!wp-content/mu-plugins/
+#!wp-content/plugins/
+#!wp-content/themes/
+#!wp-content/w3tc-config/
+#!wp-content/wp-rocket-config/
+#!wp-content/languages/
+#!wp-content/ngg/
+#!wp-content/advanced-cache.php
+#!wp-content/backup-db/
+#!wp-content/backups/
+#!wp-content/blogs.dir/
+#!wp-content/cache/
+#!wp-content/upgrade/
+#!wp-content/uploads/
+#!wp-content/wp-cache-config.php
 
 
 # ignore these plugins
@@ -28,7 +28,7 @@ wp-content/*
 wp-content/themes/twenty*/
 
 # ignore node dependency directories
-node_modules/
+#node_modules/
 
 # ignore log files and databases
 *.log
@@ -38,8 +38,11 @@ node_modules/
 #Ignore config files
 wp-config.php
 /.htaccess
-robots.txt
+#robots.txt
 /license.txt
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
+/nginx.conf
+/readme*.html
+amaps.xml
